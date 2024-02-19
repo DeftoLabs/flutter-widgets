@@ -17,14 +17,14 @@ class MenuItem {
       MenuItem(
         title: 'Botones', 
         subTitle: 'Varios Botones de Flutter', 
-        link:'/Buttoms', 
+        link:'/buttoms', 
         icon: Icons.smart_button_outlined,
         ),
 
         MenuItem(
         title: 'Tarjetas', 
         subTitle: 'Un contenedor estilizado', 
-        link:'/card', 
+        link:'/cards', 
         icon: Icons.credit_card,
         ),
     ];
