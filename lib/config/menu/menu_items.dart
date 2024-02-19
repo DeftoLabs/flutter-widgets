@@ -12,8 +12,8 @@ class MenuItem {
     required this.link, 
     required this.icon});
 
-
-    final appMenuItems = <MenuItem>[
+}
+    final List<MenuItem> appMenuItems =[
       MenuItem(
         title: 'Botones', 
         subTitle: 'Varios Botones de Flutter', 
@@ -28,4 +28,3 @@ class MenuItem {
         icon: Icons.credit_card,
         ),
     ];
-}

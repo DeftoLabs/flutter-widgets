@@ -14,7 +14,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme(
-        selectedColor: 3).getTheme(),
+        selectedColor: 4).getTheme(),
       home: const Scaffold(
         body: HomeScreen(),
       ),
