@@ -34,4 +34,11 @@ class MenuItem {
         link:'/progress', 
         icon: Icons.refresh_rounded,
         ),
+
+        MenuItem(
+        title: 'Snack Bar & Dialags', 
+        subTitle: 'Generales', 
+        link:'/snacksbars', 
+        icon: Icons.info_outline,
+        ),
     ];

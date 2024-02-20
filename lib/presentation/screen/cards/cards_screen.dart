@@ -63,7 +63,7 @@ class _CardType1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       elevation: elevation,
-      child: Padding(padding: EdgeInsets.fromLTRB(10, 5, 10, 10),
+      child: Padding(padding: const EdgeInsets.fromLTRB(10, 5, 10, 10),
       child: Column(
         children: [
           Align(
@@ -106,7 +106,7 @@ class _CardType2 extends StatelessWidget {
         )
       ),
       elevation: elevation,
-      child: Padding(padding: EdgeInsets.fromLTRB(10, 5, 10, 10),
+      child: Padding(padding: const EdgeInsets.fromLTRB(10, 5, 10, 10),
       child: Column(
         children: [
           Align(
