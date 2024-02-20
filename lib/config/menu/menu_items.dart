@@ -47,5 +47,12 @@ class MenuItem {
         link:'/animated', 
         icon: Icons.animation,
         ),
+        MenuItem(
+        title: 'UI Control + Title', 
+        subTitle: 'UI Control', 
+        link:'/ui-control', 
+        icon: Icons.car_rental_outlined,
+        ),
+
 
     ];
