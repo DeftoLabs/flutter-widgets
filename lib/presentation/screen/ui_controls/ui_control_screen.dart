@@ -50,8 +50,8 @@ class _UiControlViewState extends State<_UiControlView> {
             });
         }),
           ExpansionTile(
-            title: Text('Transportation'),
-            subtitle: Text('Select the Transportation'),
+            title: const Text('Transportation'),
+            subtitle: const Text('Select the Transportation'),
             children: [
           RadioListTile(
             value: Transportation.car, 
