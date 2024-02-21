@@ -71,4 +71,10 @@ class MenuItem {
         link:'/infinity', 
         icon: Icons.list_outlined,
         ),
+        MenuItem(
+        title: 'Cambiar Tema', 
+        subTitle: 'Aplicacion', 
+        link:'/theme-changer', 
+        icon: Icons.light_mode_outlined,
+        ),
     ];
