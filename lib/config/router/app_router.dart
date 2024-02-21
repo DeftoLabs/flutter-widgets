@@ -67,7 +67,15 @@ final appRouter = GoRouter(
           builder: (context,state) {
             return const InfinityScrollScreen();
           },
-        ),            
+        ),
+          GoRoute(
+          path: '/riverpod',
+          name: CounterScreen.name,
+          builder: (context,state) {
+            return const CounterScreen();
+          },
+        ),  
+
       ],
       
     );

@@ -15,6 +15,12 @@ class MenuItem {
 }
     final List<MenuItem> appMenuItems =[
       MenuItem(
+        title: 'Riverpod Counter', 
+        subTitle: 'Intro to Riverpod', 
+        link:'/riverpod', 
+        icon: Icons.rate_review_sharp,
+        ),
+      MenuItem(
         title: 'Botones', 
         subTitle: 'Varios Botones de Flutter', 
         link:'/buttoms', 
@@ -65,7 +71,4 @@ class MenuItem {
         link:'/infinity', 
         icon: Icons.list_outlined,
         ),
-
-
-
     ];
