@@ -59,6 +59,12 @@ class MenuItem {
         link:'/tutorial', 
         icon: Icons.accessible_outlined,
         ),
+        MenuItem(
+        title: 'Infinity Scroll & Pull', 
+        subTitle: 'Lista Infinita + Refresh', 
+        link:'/infinity', 
+        icon: Icons.list_outlined,
+        ),
 
 
 
